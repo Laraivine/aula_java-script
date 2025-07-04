@@ -6,10 +6,27 @@
     <title>Document</title>
     <script src="script.js">
       
+      let signo = parseInt(prompt('Digite seu signo'))
+    
+      switch(signo){
+        case 'Áries':
+            alert("De 21 de março a 20 de abril");
+        break;
+        case 'Touro':
+            alert("De 21 de abril a 20 de maio");
+        break;
+        case 'Gêmeos':
+            alert("De 21 de maio a 20 de junho");
+        break;   
+        case 'Câncer':
+            alert("De 21 de junho a 20 de julho");
+        break;  
+        default:
+            alert("Signo não registrado");   
+        break;
+      }  
     </script>
 </head>
 <body>
-    <button onclick="exibeSoma(6, 4)">Calcular Soma</button>
-    <button onclick="solicitarNome(Lara)">Solicitar Nome</button>
 </body>
 </html>
